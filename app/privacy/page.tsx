@@ -69,7 +69,7 @@ export default function Privacy() {
             <p className="text-gray-700 leading-relaxed">
               You may request: access to your data, correction of inaccurate info, deletion of your account, 
               or a copy of Supplier premise verification reports relating to your business. Contact 
-              support@trendsell.co.zw or visit our Bulawayo office: 123 Main St, Bulawayo, Zimbabwe.
+              support@trendsell.co.zw or visit our Bulawayo office: 1 Basil place 10th/Ave J.Tongogara Street, Bulawayo, Zimbabwe.
             </p>
           </section>
 

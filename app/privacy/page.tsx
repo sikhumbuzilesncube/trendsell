@@ -56,7 +56,7 @@ export default function Privacy() {
             <p className="text-gray-700 leading-relaxed">
               <strong>Retention:</strong> We keep Supplier premise verification photos for 5 years for fraud audits. 
               Transaction records are kept for 7 years per Zimbabwean tax law. Seller accounts inactive for 12 months 
-              are archived. You may request deletion of your account via support@trendsell.co.zw.
+              are archived. You may request deletion of your account via support@trendsell.co.zw/sikhumbuzilesncube@gmail.com.
             </p>
             <p className="text-gray-700 leading-relaxed mt-2">
               <strong>Security:</strong> All data is encrypted at rest via Supabase. Agent GPS is only active 
@@ -69,7 +69,7 @@ export default function Privacy() {
             <p className="text-gray-700 leading-relaxed">
               You may request: access to your data, correction of inaccurate info, deletion of your account, 
               or a copy of Supplier premise verification reports relating to your business. Contact 
-              support@trendsell.co.zw or visit our Bulawayo office: 1 Basil place 10th/Ave J.Tongogara Street, Bulawayo, Zimbabwe.
+              support@trendsell.co.zw/sikhumbuzilesncube@gmail.com or visit our Bulawayo office: 1 Basil place 10th/Ave J.Tongogara Street, Bulawayo, Zimbabwe.
             </p>
           </section>
 

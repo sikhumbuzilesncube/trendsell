@@ -75,7 +75,7 @@ export default function Refunds() {
               <li>Supplier premise verification records</li>
             </ol>
             <p className="text-gray-700 leading-relaxed mt-3">
-              Submit disputes to support@trendsell.co.zw within 48 hours of issue. TrendSell decision 
+              Submit disputes to support@trendsell.co.zw/sikhumbuzilesncube@gmail.com within 48 hours of issue. TrendSell decision 
               is final. For fraud cases, we cooperate with Zimbabwe Republic Police and Paynow.
             </p>
           </section>

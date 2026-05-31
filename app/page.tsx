@@ -80,34 +80,94 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* How It Works */}
+             {/* How It Works - FOR SUPPLIERS & SELLERS */}
       <section className="py-20 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              How TrendSell Protects You
+              How TrendSell Works for You
             </h2>
             <p className="text-lg text-gray-600">
-              Escrow means your money is safe until delivery is confirmed
+              Escrow protected. Paynow secured. Zero upfront inventory risk.
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[#0B3D2E] text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">List & Sell</h3>
-              <p className="text-gray-600">Upload products. Set your price. Buyers pay via Paynow into secure escrow.</p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            
+            {/* FOR SUPPLIERS */}
+            <div className="bg-[#F8FAF9] rounded-2xl p-8 border border-gray-200">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 bg-[#0B3D2E] text-white rounded-xl flex items-center justify-center text-xl font-bold">S</div>
+                <h3 className="text-2xl font-bold text-gray-900">For Suppliers</h3>
+              </div>
+              
+              <div className="space-y-6">
+                <div className="flex gap-4">
+                  <div className="w-8 h-8 bg-[#0B3D2E] text-white rounded-lg flex items-center justify-center font-bold flex-shrink-0 mt-1">1</div>
+                  <div>
+                    <h4 className="font-bold text-gray-900 mb-1">List & Let Sellers Sale For You</h4>
+                    <p className="text-gray-600">Upload your product, set your recommended profit margin and sellers will sale for you. Funds held in Escrow until you deliver.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <div className="w-8 h-8 bg-[#0B3D2E] text-white rounded-lg flex items-center justify-center font-bold flex-shrink-0 mt-1">2</div>
+                  <div>
+                    <h4 className="font-bold text-gray-900 mb-1">We Deliver</h4>
+                    <p className="text-gray-600">Our Agents handle pickup from you. No shipping cost and no stress.</p>
+                  </div>
+                </div>
+                
+                <div className="flex gap-4">
+                  <div className="w-8 h-8 bg-[#0B3D2E] text-white rounded-lg flex items-center justify-center font-bold flex-shrink-0 mt-1">3</div>
+                  <div>
+                    <h4 className="font-bold text-gray-900 mb-1">You Get Paid</h4>
+                    <p className="text-gray-600">Funds released from Escrow to your EcoCash or bank. Disputes covered.</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[#0B3D2E] text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">We Deliver</h3>
-              <p className="text-gray-600">Our Bulawayo agents handle pickup and delivery. Buyer confirms receipt.</p>
+
+            {/* FOR SELLERS */}
+            <div className="bg-[#FFF7F2] rounded-2xl p-8 border border-orange-200">
+              <div className="flex items-center gap-3 mb-6">
+                <div className="w-12 h-12 bg-[#FF6B35] text-white rounded-xl flex items-center justify-center text-xl font-bold">S</div>
+                <h3 className="text-2xl font-bold text-gray-900">For Sellers</h3>
+              </div>
+              
+              <div className="space-y-5">
+                <div className="flex gap-3">
+                  <span className="text-[#FF6B35] font-bold mt-1">✓</span>
+                  <p className="text-gray-700"><strong>Resale for profit</strong> without holding inventory. No need for capital or merchandise.</p>
+                </div>
+                
+                <div className="flex gap-3">
+                  <span className="text-[#FF6B35] font-bold mt-1">✓</span>
+                  <p className="text-gray-700"><strong>List & Resale</strong> option for Seller Pro.</p>
+                </div>
+                
+                <div className="flex gap-3">
+                  <span className="text-[#FF6B35] font-bold mt-1">✓</span>
+                  <p className="text-gray-700"><strong>No delivery needed.</strong> TrendSell agents do the rest.</p>
+                </div>
+                
+                <div className="flex gap-3">
+                  <span className="text-[#FF6B35] font-bold mt-1">✓</span>
+                  <p className="text-gray-700"><strong>Escrow release.</strong> Get paid to your EcoCash or bank account.</p>
+                </div>
+                
+                <div className="flex gap-3">
+                  <span className="text-[#FF6B35] font-bold mt-1">✓</span>
+                  <p className="text-gray-700"><strong>One-click advertising</strong> to your social media.</p>
+                </div>
+                
+                <div className="flex gap-3">
+                  <span className="text-[#FF6B35] font-bold mt-1">✓</span>
+                  <p className="text-gray-700"><strong>Open a digital store</strong> with no cost.</p>
+                </div>
+              </div>
             </div>
-            <div className="text-center">
-              <div className="w-16 h-16 bg-[#0B3D2E] text-white rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">You Get Paid</h3>
-              <p className="text-gray-600">Funds released from escrow to your EcoCash or bank. Disputes covered.</p>
-            </div>
+
           </div>
         </div>
       </section>

@@ -35,7 +35,7 @@ export default function TrustBar() {
             Get instant help from a real person. Mon-Sat 8am-6pm
           </p>
           <Link 
-            href="https://wa.me/263XXXXXXXXX?text=Hi%20TrendSell,%20I%20need%20help"
+            href="https://wa.me/263777803517?text=Hi%20TrendSell,%20I%20need%20help"
             target="_blank"
             className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-lg text-lg shadow-lg transition"
           >

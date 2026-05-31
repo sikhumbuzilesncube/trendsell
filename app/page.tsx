@@ -1,4 +1,4 @@
- import Link from 'next/link'
+import Link from 'next/link'
 
 export default function HomePage() {
   return (
@@ -15,6 +15,7 @@ export default function HomePage() {
               <span>📍</span>
               <span className="font-medium">Bulawayo</span>
             </div>
+          </div>
           <div className="flex items-center gap-4">
             <Link href="/login" className="text-gray-700 hover:text-[#0B3D2E] font-medium">
               Login
@@ -62,7 +63,6 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Trust Badges */}
           <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-gray-500">
             <div className="flex items-center gap-2">
               <span className="text-green-600">✓</span> Paynow Verified
@@ -80,7 +80,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* How It Works - Professional */}
+      {/* How It Works */}
       <section className="py-20 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -112,7 +112,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer - PAYNOW COMPLIANCE */}
+      {/* Footer */}
       <footer className="bg-gray-900 text-gray-300 px-6 py-16">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
           
@@ -172,4 +172,4 @@ export default function HomePage() {
 
     </main>
   )
-            }    
+     }               
